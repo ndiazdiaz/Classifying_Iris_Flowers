@@ -18,7 +18,7 @@ import joblib
 seed = 42
 
 # Read original dataset
-iris_df = pd.read_csv("C:/Users/34677/Downloads/data_flowers.csv", sep=';')
+iris_df = pd.read_csv("data_flowers.csv", sep=';')
 iris_df.sample(frac=1, random_state=seed)
 
 # selecting features and target data
